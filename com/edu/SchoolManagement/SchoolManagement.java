@@ -13,7 +13,7 @@ public class SchoolManagement {
             System.out.println("index i: " + i);
             school.createGrade(i);
         }
-        Grade grade_one = school.getGrade(1);
+        Grade grade_one = school.getGrade(0);
         grade_one.addStudent("Vibhav", Student.Sex.Male);
 
         school.printDescription();

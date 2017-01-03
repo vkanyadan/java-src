@@ -22,6 +22,7 @@ public class Grade {
 
     public void printDescription() {
         System.out.println("Grade number: " + grade_);
+        System.out.println("Number of students: " + students_.size());
         for (Student s: students_) {
             s.printDescription();
         }
