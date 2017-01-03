@@ -21,7 +21,7 @@ public class Grade {
     }
 
     public void printDescription() {
-        System.out.println("Grade no: " + grade_);
+        System.out.println("Grade number: " + grade_);
         for (Student s: students_) {
             s.printDescription();
         }
