@@ -12,8 +12,9 @@ public class SchoolManagement {
         for (int i=1; i <=10; i++) {
             System.out.println("index i: " + i);
             school.createGrade(i);
-
         }
+        Grade grade_one = school.getGrade(1);
+        grade_one.addStudent("Vibhav", Student.Sex.Male);
 
         school.printDescription();
 

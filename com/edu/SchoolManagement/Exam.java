@@ -5,10 +5,13 @@ package com.edu.SchoolManagement;
  */
 public class Exam {
     private final String name_; // e.g. midterm/finals/periodic.
-    private final float score_;
+    private float score_;
 
     public Exam(String name_) {
         this.name_ = name_;
         this.score_ = 0;
+    }
+    public void updateScore(float score) {
+        this.score_ = score;
     }
 }

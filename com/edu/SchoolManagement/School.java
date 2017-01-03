@@ -24,4 +24,9 @@ public class School {
         Grade new_grade = new Grade(grade);
         this.grades_.add(new_grade);
     }
+
+    public Grade getGrade(int i) {
+        return grades_.get(i);
+    }
+
 }

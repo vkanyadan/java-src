@@ -27,6 +27,15 @@ public class Student {
     }
     public void printDescription() {
         System.out.println("Student name: " + name_ + " Grade: " + grade_ + "id: " + student_id_);
+        System.out.println("Student Courses:");
+        for (Course c : courses_) {
+            c.printDescription();
+        }
+    }
+
+    public void addCourse(Course c) {
+        this.courses_.add(c);
+
     }
 
 }

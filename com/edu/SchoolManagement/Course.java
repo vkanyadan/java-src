@@ -14,4 +14,12 @@ public class Course {
         this.name_ = name_;
         this.exams_ = new ArrayList<>();
     }
+
+    public void addExam(Exam e) {
+        this.exams_.add(e);
+    }
+
+    public void printDescription() {
+        System.out.println("Course name: " + name_);
+    }
 }
