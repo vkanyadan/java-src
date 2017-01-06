@@ -16,9 +16,11 @@ public class SchoolManagement {
         Grade grade_one = school.getGrade(0);
         Grade grade_two = school.getGrade(1);
         Grade grade_three = school.getGrade(2);
+        Grade grade_four = school.getGrade(3);
         grade_one.addStudent("Vibhav", Student.Sex.Male);
         grade_two.addStudent("Aryan", Student.Sex.Male);
-        grade_three.addStudent("A person", Student.Sex.Female);
+        grade_three.addStudent("Deven", Student.Sex.Male);
+        grade_four.addStudent("Navya", Student.Sex.Female);
 
         school.printDescription();
 
