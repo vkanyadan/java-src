@@ -31,6 +31,5 @@ public class Grade {
         Student student = new Student(name, grade_, student_id_, student_sex);
         students_.add(student);
         student_id_++;
-
     }
 }
