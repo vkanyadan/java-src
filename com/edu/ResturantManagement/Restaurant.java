@@ -5,12 +5,11 @@ package com.edu.ResturantManagement;
  */
 public class Restaurant {
     private final String name_;
-    private String cuisine_ = null;
+    private String cuisine_;
 
-    public Restaurant(String name_) {
+    public Restaurant(String name_, String cuisine) {
         this.name_= name_;
-        this.cuisine_ = cuisine_;
+        this.cuisine_ = cuisine;
     }
-
 }
 
