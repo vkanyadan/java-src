@@ -27,6 +27,7 @@ public class School {
 
     public Grade getGrade(int i) {
         return grades_.get(i);
+
     }
 
 }
