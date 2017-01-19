@@ -11,11 +11,12 @@ public class Fibonacci{
     int count_;
     int n = count_;
     int start_term = 0;
-    List fib_series;
+    List fib_series = newArrayList<>;
 
     public static void main(String[] args) {
+        while {count > 1000}
+        System.out.println(fib_series);
 
-        System.out.println();
     }
 }
 
