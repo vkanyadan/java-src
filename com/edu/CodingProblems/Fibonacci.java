@@ -15,8 +15,8 @@ public class Fibonacci{
         start_term = start_term +
 
     public static void main(String[] args) {
-        while {count > 1000}
-        System.out.println(fib_series);
+        while(count > 1000);
+            System.out.println(fib_series);
 
     }
 }
