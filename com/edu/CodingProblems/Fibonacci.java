@@ -12,6 +12,7 @@ public class Fibonacci{
     int n = count_;
     int start_term = 0;
     List fib_series = newArrayList<>;
+        start_term = start_term +
 
     public static void main(String[] args) {
         while {count > 1000}
